@@ -1,48 +1,6 @@
-h1{
-  font-size: 15px;
+.block {
+  padding: 30px;
 }
-.ul li{
-  padding: 0px 0px 20px 0px;
-  list-style-type: none;
-}
-.ul li::before{
-  content: '';
-  height: 10px;
-  width: 10px;
-  border-radius: 60%;
-  background-color: blue;
-  display: inline-block;
-  margin: 0px 15px 0px 0px;
-}
-.ul li:hover::before{
-  background-color: yellow;
-}
-.ul li:nth-child(1){
-  text-decoration: line-through;
-}
-.ul li:nth-child(2){
-  font-weight: 800;
-}
-.ul li:nth-child(3){
-  text-transform: uppercase;
-}
-.ul li:nth-child(5):active{
-  color: blue;
-}
-.buttom{
-  padding: 4%;
-  display: flex;
-justify-content: center;
-}
-#butg{
-  border: 2px solid #d5eb75;
-  background-color: #34eb77;
-  border-radius: 40px;
-
-}
-.span:nth-child(even){
-  color: blue;
-}
-.span:nth-child(odd){
-  color: yellow;
-}
+.block_1{}
+.block_2{}
+.block_3{}
