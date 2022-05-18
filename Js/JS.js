@@ -1,9 +1,6 @@
-let car ={
-  maxSpeead: 240,
-};
-console.log('Max speed was: ' + car.maxSpeead);
-function apdateSpeed(car){
-  car.maxSpeead = 300;
-  console.log('Now speed ' + car.maxSpeead);
+var tr = confirm('Do you like travelers ?');
+if(tr){
+  alert('You are welcom');
+} else {
+  alert("Don't worry!" )
 }
-apdateSpeed(car)
